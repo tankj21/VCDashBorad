@@ -179,3 +179,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-secondary); 
 }
+
+.sidebar-item-hover:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.theme-light .sidebar-item-hover:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
